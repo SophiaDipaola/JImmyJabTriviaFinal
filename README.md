@@ -55,6 +55,10 @@ The planning materials used to build this app.
 * High-level user stories.
 * image files of wireframes
 
+![wireframe 1](./assets/wirefram3.jpg)
+
+![wireframe 2](./assets/wireframe-example-1.png)
+
 ---
 ### Technologies & Code Snippets
 * list of technologies
@@ -68,5 +72,3 @@ Give credit to any `codepen` that inspired you, `medium` article that helped you
 
 ### Future development
 What are the next steps for the project? How will you continue to evolve it?
-
----
