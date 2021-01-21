@@ -1,5 +1,20 @@
 # ![GA logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) README: a How-To Guide
 
+### Overview
+
+To get your project idea approved for the Unit 1 project, you will begin developing your project's README file. The approval process will follow the steps below:
+
+* Learn about README files and markdown
+* Fork and clone this README for your project
+* In your copy, fill out the following fields:
+  * Title & Blurb
+  * Motivation
+  * User Stories & Wireframes
+* Submit a pull request for project approval
+* Get your project approved
+* Copy this template to your project repository
+* Complete your README as your project develops
+
 
 ### What is a README?
 
