@@ -41,6 +41,8 @@ h1 - h6 head tags
 
 [link text](absolute or relative url)
 
+![image path](absolute or relative url)
+
 ```
 
 #### Markdown Resources
