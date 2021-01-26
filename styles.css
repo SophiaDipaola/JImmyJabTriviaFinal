@@ -1,44 +1,47 @@
-.body {
-  margin: auto;
-}
 
-.game {
-}
-
-p {
-}
-
-.game section {
-}
-
-.home section {
-}
-
-section {
-}
-
-.welcome p {
-}
-
-
-.correct__box {}
-.wrong__box {}
-/* 
-.welcome-img{
-  min-height: 100%;
-  min-width: 1024px;
-
-  width:100%;
-  height:auto;
-
-  position: fixed;
-  top: 0;
-  left: 0;
-} */
-
-html{
+.home-page{
   background: url(https://i.imgur.com/RvuU47n.jpg) no-repeat center center fixed;
   background-size: cover;
   height:100%;
   overflow: hidden;
+}
+.game-page{
+  background: url(https://i.imgur.com/2wK8tj3.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height:100%;
+  overflow: hidden;
+}
+.results-page{
+  background: url(https://i.imgur.com/wh4MpDF.png) no-repeat center center fixed;
+  background-size: cover;
+  height:100%;
+  overflow: hidden;
+}
+
+/* Welcome Page Styling */
+#game-go-button {
+  background: white;
+  width: max-content;
+  
+}
+a {
+  text-decoration: none;
+}
+
+/* Game Page Styling */
+#results-go-button {
+  background: white;
+  width: max-content;
+}
+
+/* resulst page styling */
+
+#play-again-button {
+  background: white;
+  width: max-content;
+}
+
+#go-home-button {
+  background: white;
+  width: max-content;
 }
