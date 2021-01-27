@@ -29,6 +29,65 @@ a {
 }
 
 /* Game Page Styling */
+#question-1-h1{
+color: white;
+}
+
+#question-2-h1{
+color: white;
+}
+
+#question-3-h1{
+color: white;
+}
+
+#question-4-h1 {
+color: white;
+}
+#question-5-h1{
+color: white;
+}
+
+/* questions styling */
+.incorrect-answer {
+  display: inline-flex; 
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  background:steelblue;
+  border: 1px double white;
+  padding: 5px 40px;
+}
+
+.correct-answer{
+  /* display: inline-flex; */
+  position: relative;
+  text-align: center;
+  max-width: 70%;
+  height: auto;
+  margin: 10px;
+  background:steelblue;
+  border: 1px double white;
+  padding: 5px 40px;
+}
+
+.column-1-buttons{
+  display:flex;
+  justify-content: space between center;
+  flex-direction: column;
+  width:150px;
+
+}
+
+.colmn-2-buttons{
+  display:flex;
+  justify-content: space between center;
+  flex-direction: column;
+  width:150px;
+}
+/* Buttons */
 #results-go-button {
   background: white;
   width: max-content;
@@ -39,9 +98,11 @@ a {
 #play-again-button {
   background: white;
   width: max-content;
+  text-decoration: none;
 }
 
 #go-home-button {
   background: white;
   width: max-content;
+  text-decoration: none;
 }
