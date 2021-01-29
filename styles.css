@@ -9,7 +9,7 @@
   align-items: center;
   display:flex;
   flex-direction: column;
-    display:none; 
+    display:flex; 
 
 }
 .welcome-box{
@@ -48,7 +48,7 @@ a {
 
 /* Game Page Styling */
 .game{
-  display:none;
+  display: none;
   flex-direction:column;
   justify-content: center;
   align-items:center;
@@ -151,12 +151,25 @@ h2{
   align-items:center;
 }
 
+.score-display{
+  display:flex;
+  flex-direction:column;
+ 
+}
 .score{
   color:red;
+  font-size:50px;
+  font-family: paralucent, sans-serif;
+  font-weight: 50px;
+  font-style: heavy;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-left:500px;
+  
 }
-.score-message{
-  color: red;
-}
+
 .incorrect-answer{
   color:white;
   border-radius: 5px;
@@ -195,8 +208,7 @@ display: flex;
   align-items: center;
   display:flex;
   flex-direction: column;
-
-  /* display:none; */
+  display:none;
 } 
 .results{
   color:white;
@@ -212,15 +224,20 @@ display: flex;
   margin-bottom: 700px;
 }
   .winner{
-    /* display:none; */
+    display:none;
   }
   .you-lost{
     display: none;
   }
 
-#results-go-button {
+#results-button {
+  color:white;
   width: max-content;
-  color:black;
+  background:linear-gradient(to top, rgba(0, 0, 0, 0), rgba(217,197,77,1));
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  font-family: paralucent, sans-serif;
+  margin: 20px;
   
 }
 
