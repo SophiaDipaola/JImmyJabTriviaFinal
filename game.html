@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="game-page"lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Play</title>
@@ -13,30 +13,38 @@
   </head>
   <body>
 
-    <main class="game">
- <section class= "home-page">
-  <p class = "welcome-p">
-    <div class = "welcome-title">
-      <h1 class ="welcome-h1" >Welcome to Jimmy Jab Trivia!</h1>
-    </div>
-    </p>
-    <div class = "welcome-desc">
-      <p class = "welcome-text">
-       <h1 id="test-knowledge">Best Detective in the world? BET.</h1>
-        "Captain, what you just saw was the Jimmy Jab games. It's a bunch of dumb contests we play to kill the time. Nobody even cares who wins." 
-      </p>
-    </div>
-   <!-- <button class = start>Noine-Noine!</button> -->
-    <div id="go-game-button"></div>
-   <button onclick="goGamePage()">NOINE-NOINE</button>
-    </div>
- </section>  
+    <!-- <main class="game"> -->
+
+      <!-- <section class= "home-page"> -->
+        
+        <div id="home-page">
+         
+          <!-- <div class = "welcome-title">
+            <h1 class ="welcome-h1" >Welcome to Jimmy Jab Trivia!</h1>
+          </div> -->
+          
+    <div class="welcome-box">
+       <h1 id="test-knowledge">BEST DETECTIVE IN THE WORLD? BET.</h1>
+        "Captain, what you just saw was the Jimmy Jab games. <br />It's a bunch of dumb contests we play to kill the time.<br /> Nobody even cares who wins." 
       
-<section class="game-page">
+  
+   <!-- <button class = start>Noine-Noine!</button> -->
+    <div class="go-game-button">
+   <button id="go-game-button">NOINE-NOINE!</button>
+    </div>
+    </div>
+    
+  </div>
+ <!-- </section>   -->
+      
+<!-- <section class="game-page"> -->
+
+  <div class = "game">
+    <h1 id="game-title">JIMMY JAB TRIVIA!</h1> 
 <div class = "first">
       
-        <h2>1. When Jake sends Captain Holt an email, what did he accidentally leave as his signature?</h2>
-    
+        <h2>WHEN JAKE SENDS CAPTAIN HOLT AN EMAIL, WHAT DID HE ACCIDENTALLY LEAVE AS HIS SIGNATURE?</h2>
+    <div class = "answer-box">
         <div class ="column-1-buttons">
       <button class= "Q1 answerButton correct-answer">"My Stinky Butt"</button>
       <button class="Q1 answerButton incorrect-answer">"The Name of Amy's Sex Tape"</button>
@@ -45,13 +53,13 @@
       <button class="Q1 answerButton incorrect-answer">"H.A.G.S, Jake"</button>
       <button class="Q1 answerButton incorrect-answer">"My Smelly Farts"</button>
         </div>
-    
-    </div>
+      </div>
+  </div>
 
     <div class = "second">
       
-        <h2>2. what is the name of captian Holt's dog?</h2>
-    
+        <h2>WHAT IS THE NAME OF KEVIN AND CAPTAIN RAYMOND HOLT'S FAVORITE DOG?</h2>
+        <div class = "answer-box">
         <div class ="column-1-buttons">
       <button class="Q2 answerButton incorrect-answer">Butter</button>
       <button class="Q2 answerButton correct-answer">Cheddar</button>
@@ -60,32 +68,31 @@
       <button class="Q2 answerButton incorrect-answer">Spot</button>
       <button class="Q2 answerButton incorrect-answer">Sir. Good Boy</button>
         </div>
-    
+    </div>
     </div>
     
       
 
     <div class = "third">
       
-        <h2>3. What's Jakes Favorite Movie?</h2>
+        <h2>WHAT IS THE OFFICIAL TITLE OF JAKE PERALTA'S ALL-TIME FAVORITE MOTION PICTURE?</h2>
     
-    
+        <div class = "answer-box">
           <div class ="column-1-buttons">
       <button class="Q3 answerButton incorrect-answer">"The Terminator"</button>
       <button class="Q3 answerButton correct-answer">"Die Hard"</button>
             </div>
           <div class="column-2-buttons">   
       <button class="Q3 answerButton incorrect-answer">"Rocky"</button>
-      <button class="Q3 answerButton incorrect-answer">"Casablanca"</button>
+      <button class="Q3 answerButton incorrect-answer">"Lethal Weapon"</button>
           </div>
-        
+        </div>
     </div>
 
     <div class = "fourth">
       
-      <h2>4. What happened at Jake and Amy's wedding in season 5?</h2>
-
-      <div class="buttons">
+      <h2>WHAT TRAGIC EVENT OCCURRED AND NEARLY RUINED JAKE AND AMY'S WEDDING IN SEASON 5?</h2>
+      <div class = "answer-box">
           <div class ="column-1-buttons">
         <button class="Q4 answerButton answerButton incorrect-answer">There was an earthquake</button>
         <button class="Q4 answerButton incorrect-answer">There was an objection</button>
@@ -94,14 +101,14 @@
         <button class="Q4 answerButton incorrect-answer">There was an injury</button>
         <button class="Q4 answerButton correct-answer">There was a bomb threat</button>
           </div>
-          </div>
+       </div>   
     </div>
 
     <div class = "fifth">
       
-        <h2>5. Who does Boyle hate more than anyone?</h2>
+        <h2>WHO DOES CHARLES BOYLE HATE MORE THAN ANYONE ELSE IN THE ENTIRE 99 PRECINCT?</h2>
       
-    
+        <div class = "answer-box">
           <div class ="column-1-buttons">
       <button class="Q5 answerButton incorrect-answer">Amy Santiago</button>
       <button class="Q5 answerButton incorrect-answer">Madeline Wunch</button>
@@ -110,42 +117,41 @@
       <button class="Q5 answerButton correct-answer">Sergeant Peanut Butter</button>
       <button class="Q5 answerButton incorrect-answer">Doug Judy</button>
         </div>
-  
+  </div>
     </div>
-
+  
     
 <div id= "results-go-button">
-  <button onclick="goResultsPage()">See results</button>
+  <button>See results</button>
 </div>
-
-    </section>
    <div class="score-display">
     <p class="score">Score </p>
     <p class ="score-message"></p>
   </div>
-</section>
+</div>
+<!-- </section> -->
 
-<section class="results-page">
-  <div class="results">
+<div class="results-page">
+  <div id="results">
     <div class = "winner">
-            <p  class="winner">
+            <p class="winner">
                 <h1 class="winner-h1">Congratulations, Detetective Right-All-Time!</h1>
-                </p>
+            </p>
     </div>
-    <div class = "you-lost">
+  <div class = "you-lost">
     
         <p class="loser">
             <h1 class="lose-h1">Oops! Better luck next time, Detective Terrible-Detective!</h1>
         </p>
     </div>
-    </div>
-        </div>
-        <div id="result-page-buttons">
-            <button onclick="homePage()">Back to the precinct!</button>
+  </div>
+    
+        <div id="play-again">
+            <button>Back to the precinct!</button>
 
     </div>
 
-</section>
+  </div>
 </main>
     <script defer rel="javascript" src="script.js"></script>
   </body>

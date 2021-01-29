@@ -1,122 +1,170 @@
 
-.home-page{
-  background: url(https://i.imgur.com/RvuU47n.jpg) no-repeat center center fixed;
+#home-page{
+  background: url("./project-one/welcomebg.jpg") no-repeat center center fixed;
   background-size: cover;
-  height:100%;
+  height:1000px;
   overflow: hidden;
-  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+    display:none; 
+
 }
-.game-page{
-  background: url(https://i.imgur.com/2wK8tj3.jpg) no-repeat center center fixed;
-  background-size: cover;
-  height:100%;
-  overflow: hidden;
+.welcome-box{
+  color:white;
+  justify-content:space-evenly;
+  border-radius: 10px;
+  border-width:3px;
+  border-style:solid;
+  border-color:black;
+  padding: 10px 10px 10px 10px;
+  background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0));
+  margin-top:50px;
+  font-size: 24px;
+  font-family: paralucent, sans-serif;
 }
+
+#test-knowledge{
+  font-size:56px;
+}
+
+#go-game-button {
+  background: white; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color:white;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  background:linear-gradient(to top, rgba(0, 0, 0, 0), rgba(217,197,77,1));
+  font-family: paralucent, sans-serif;
+}
+
+
 .results-page{
-  background: url(https://i.imgur.com/wh4MpDF.png) no-repeat center center fixed;
+  background: url("./project-one/resultsbg.jpg") no-repeat center center fixed;
   background-size: cover;
-  height:100%;
+  height:1000px;
   overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  /* display:none; */
   
 }
 
 /* Welcome Page Styling */
-#game-go-button {
-  background: white;
-  width: max-content;
-  
-}
+
 a {
   text-decoration: none;
 }
 
-.welcome-desc{
-  justify-content:space-evenly;
-  border-radius: 10px;
-  border-width:2px;
-border-style:solid;
-border-color:black;
-padding: 10px 10px 10px 10px;
-background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0));
-}
 /* Game Page Styling */
-
-h2{
-  color: black;
-  font-size:16px;
-  font-family: paralucent, sans-serif;
-font-weight: 500px;
-font-style: heavy;
+.game{
+  display:none;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  background: url("./project-one/gamebg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height:100%;
+  overflow: hidden;
 }
 
 .first{
+  margin:200px;
   text-align:center;
-  height: 100px;
-  width: 400px;
+  height: 350px;
+  width: 700px;
   justify-content:space-evenly;
   border-radius: 10px;
   border-width:2px;
-border-style:solid;
-border-color:black;
-padding: 10px 10px 10px 10px;
-background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0));
+  border-style:solid;
+  border-color:black;
+  padding: 10px 10px 10px 10px;
+  background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0)); 
+  
 }
 .second{
+  margin-bottom:200px;
   text-align:center;
-  height: 100px;
-  width: 400px;
+  height: 350px;
+  width: 700px;
   justify-content:space-evenly;
   border-radius: 10px;
   border-width:2px;
-border-style:solid;
-border-color:black;
-padding: 10px 10px 10px 10px;
-background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0));
+  border-style:solid;
+  border-color:black;
+  padding: 10px 10px 10px 10px;
+  background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0)); 
 }
 
 .third{
+  margin-bottom:200px;
   text-align:center;
-  height: 100px;
-  width: 400px;
+  height: 350px;
+  width: 700px;
   justify-content:space-evenly;
   border-radius: 10px;
   border-width:2px;
-border-style:solid;
-border-color:black;
-padding: 10px 10px 10px 10px;
-background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0));
+  border-style:solid;
+  border-color:black;
+  padding: 10px 10px 10px 10px;
+  background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0)); 
 }
+
 .fourth{
+  margin-bottom:200px;
   text-align:center;
-  height: 100px;
-  width: 400px;
+  height: 350px;
+  width: 700px;
   justify-content:space-evenly;
   border-radius: 10px;
   border-width:2px;
-border-style:solid;
-border-color:black;
-padding: 10px 10px 10px 10px;
-background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0));
+  border-style:solid;
+  border-color:black;
+  padding: 10px 10px 10px 10px;
+  background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0)); 
 }
 .fifth{
   text-align:center;
-  height: 100px;
-  width: 400px;
+  height: 350px;
+  width: 700px;
   justify-content:space-evenly;
   border-radius: 10px;
   border-width:2px;
-border-style:solid;
-border-color:black;
-padding: 15px 10px 15px 10px;
-background:linear-gradient(to top,rgba(23, 7, 163, 0.79), rgba(0,0,0,0));
-  
+  border-style:solid;
+  border-color:black;
+  padding: 10px 10px 10px 10px;
+  background:linear-gradient(to top, rgba(23, 7, 163, 0.79), rgba(0,0,0,0)); 
 }
-.buttons{
-justify-content: center;
-border-radius: 20px;
-padding-top: 10px;
-padding-bottom:10px;
 
+h2{
+  color:white;
+  font-size:36px;
+  font-family: paralucent, sans-serif;
+  font-weight: 500px;
+  font-style: heavy;
+}
+#game-title{
+  color:white;
+  font-size:60px;
+  font-family: paralucent, sans-serif;
+  font-weight: 500px;
+  font-style: heavy;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: -40px;
+}
+.answer-box{
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 
 .score{
@@ -126,28 +174,34 @@ padding-bottom:10px;
   color: red;
 }
 .incorrect-answer{
-color:white;
-
-border-radius: 15px;
-padding: 5px 5px 5px 5px;
-background:linear-gradient(to top, rgba(0, 0, 0, 0), rgba(217,197,77,1));
-  
+  color:white;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  background:linear-gradient(to top, rgba(0, 0, 0, 0), rgba(217,197,77,1));
+  font-family: paralucent, sans-serif;
+  margin: 15px;
+  width: 75px;
+  height:75px;
 }
 .correct-answer{
   color:white;
   background:linear-gradient(to top, rgba(0, 0, 0, 0), rgba(217,197,77,1));
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 5px 5px 5px 5px;
+  font-family: paralucent, sans-serif;
+  margin:15px;
+  width: 75px;
+  height:75px;
 }
-/* .column-1-buttons{
+.column-1-buttons{
 display: flex;
-flex-direction: column;
+/* flex-direction: column; */
 }
 .column-2-buttons{
   display: flex;
-  flex-direction: column;
-} */
-/* Buttons */
+  /* flex-direction: column; */
+}
+
 #results-go-button {
   background: white;
   width: max-content;

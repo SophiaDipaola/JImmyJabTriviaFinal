@@ -1,12 +1,12 @@
-
+/*
 // GAME JS
 //variable list
- const rightAnswer = document.querySelectorAll('.correct-answer')
+ const rightAnswer = document.getElementsByClassName('correct-answer')
  const wrongAnswer = document.querySelectorAll('.incorrect-answer')
 let score = 0
 const message = document.querySelector('.score-message')
 const scoreP = document.querySelector('.score')
-const answerButtons = document.getElementsByClassName('.answerButton')
+const answerButtons = document.querySelectorAll('.answerButton')
 const results =document.getElementById('results')
 const game = document.getElementById('game')
 
@@ -99,7 +99,9 @@ function goGamePage(){
     }
 }
 function goResultsPage(){
+    console.log(goResultsPage)
     const results =document.getElementsById('results');
+   
     if(results.style.display === "none"){
         results.style.display = "block";
     }else{ 
@@ -114,3 +116,4 @@ function homePage(){
         goHome.style.display = "none";
     }
 }
+*/
